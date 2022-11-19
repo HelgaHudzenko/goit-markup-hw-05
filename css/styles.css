@@ -856,12 +856,12 @@ textarea {
 	display:block;
 }
 
-.shop_overlay img{
+.overlay {
 	position: relative;
 	overflow: hidden;
 }
 
-.overlay{
+.overlay {
 	position: absolute;
 	width: 370px;
 	height: 294px;
