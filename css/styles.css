@@ -856,10 +856,9 @@ textarea {
 	display:block;
 }
 
-.shop_card:hover
-.shop_card:focus {
+.shop_overlay:hover
+.shop_overlay:focus {
 	display: inline-block;
-	content: "";
 	position: absolute;
 	top: 0;
 	left: 0;
