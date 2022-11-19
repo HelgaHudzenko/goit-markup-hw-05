@@ -342,7 +342,7 @@ nav:active {
 
 /* Modal*/
 
-.backdrop {
+.backdrop.is-hidden {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -351,7 +351,7 @@ nav:active {
 	background-color: rgba(0, 0, 0, 0.2);
 }
 
-.modal__email {
+.modal {
 	display: none;
 	position: fixed;
 	z-index: 99;
@@ -377,6 +377,10 @@ nav:active {
 	border: 1px solid rgb(241, 237, 237);
 	text-align: center;
 	cursor: pointer;
+}
+
+.close-icon {
+	fill: var(--black-txt-cl);
 }
 
 .close:hover {
