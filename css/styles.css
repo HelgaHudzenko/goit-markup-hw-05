@@ -258,33 +258,25 @@ nav:active {
 
 .site-nav .is-active {
 	color: var(--accent-txt-cl);
-	
 }
 
-.head-link {
-	position: relative;
-
-}
-
-.head-nav .head-link::after {
+.current::after {
 	position: absolute;
+	display: block;
 	content: "";
 	bottom: 0;
 	left: 0;
 	width: 100%;
 	height: 4px;
-	bottom: -1;
-	border-bottom: 4px solid;
 	border-radius: 2px;
-	opacity: 0;
-  	transition-duration: 250ms;
-  	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	background: #2196f3;
 }
 
-.head-nav .head-link::after{
-	opacity: 1;
-	border-bottom-color: #2196f3;
+.head-link a{
+	position: relative;
+	padding: 32px 0;
 }
+
 
 .site-nav a {
 	text-decoration: none;
