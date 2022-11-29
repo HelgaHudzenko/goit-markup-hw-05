@@ -651,7 +651,7 @@ textarea {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	transition: 0.2s linear;
+	transition: 200ms linear;
 }
 
 .team-icon-media svg {
@@ -661,12 +661,10 @@ textarea {
 .team-icon-media:hover {
 	background: #2196F3;
 	fill: #FFFFFF;
-	transition:  0.2s linear;
 }
 
 .team-icon-media:hover svg {
 	fill: #FFFFFF;
-	transition:  0.2s linear;
 }
 
 .team-inform {
@@ -688,13 +686,12 @@ textarea {
 	justify-content: center;
 	min-height: 92px;
 	fill: #AFB1B8;
-	transition: 0.2s linear;
+	transition: color 200ms linear;
 }
 
 .clients__item:hover {
 	border: 1px solid #2196F3;
 	fill: #2196F3;
-	transition: 0.2s linear;
 	cursor: pointer;
 }
 
@@ -835,18 +832,18 @@ textarea {
 
 .footer__soc-row li svg {
 	fill: #FFFFFF;
-	transition: 0.2s linear;
+	transition: 200ms linear;
 }
 
 .footer__soc-row li a:hover {
 	background: #2196F3;
 	fill: #FFFFFF;
-	transition:  0.2s linear;
+	transition:  200ms linear;
 }
 
 .footer__soc-row li a:hover svg {
 	fill: #FFFFFF;
-	transition:  0.2s linear;
+	transition:  200ms linear;
 }
 
 .footer a {
@@ -871,20 +868,20 @@ textarea {
 	margin-bottom: 50px;
 }
 
-.buttons li:not(:last-child) {
+.butt-filt:not(:last-child) {
 	margin-right: 8px;
 }
 
-.buttons li button {
+.filter {
 	border-radius: 4px;
 	padding: 6px 22px;
 }
 
-.buttons li button:hover {
+.filter:hover {
 	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.buttons li button:focus {
+.filter:focus {
 	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
@@ -899,7 +896,7 @@ textarea {
 	gap: 30px;
 }
 
-.shop__list li a:hover {
+.shop_card:hover {
 	box-shadow: 0px 1px 1px rgb(0 0 0 / 12%), 0px 4px 4px rgb(0 0 0 / 6%), 1px 4px 6px rgb(0 0 0 / 16%);
 }
 
@@ -910,7 +907,7 @@ textarea {
 	border-top: 0px;
 }
 
-.shop__list li a img {
+.shop_card img {
 	display: block;
 	width: 100%;
 }
@@ -920,7 +917,7 @@ textarea {
 }
 
 .shop a{
-	transition: color 200ms linear;
+	transition: 200ms linear;
 } 
 
 .shop_overlay {
@@ -942,7 +939,7 @@ textarea {
 	transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.shop__list li a:hover .overlay {
+.shop_card:hover .overlay {
 	transform: translateY(-100%);
 }
 
