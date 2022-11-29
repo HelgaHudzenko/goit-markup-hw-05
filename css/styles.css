@@ -642,30 +642,29 @@ textarea {
 	display: flex;
 	gap: 10px;
 	justify-content: center;
-	
 }
 
-.team__soc-row li a {
+.team-icon-media {
 	width: 44px;
 	height: 44px;
 	border-radius: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-}
-
-.team__soc-row li a svg {
-	fill: #AFB1B8;
 	transition: 0.2s linear;
 }
 
-.team__soc-row li a:hover {
+.team-icon-media svg {
+	fill: #AFB1B8;
+}
+
+.team-icon-media:hover {
 	background: #2196F3;
 	fill: #FFFFFF;
 	transition:  0.2s linear;
 }
 
-.team__soc-row li a:hover svg {
+.team-icon-media:hover svg {
 	fill: #FFFFFF;
 	transition:  0.2s linear;
 }
