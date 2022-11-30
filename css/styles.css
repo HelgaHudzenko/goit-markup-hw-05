@@ -139,7 +139,7 @@ body {
 }
 
 .header a {
-	transition: color 200ms linear;
+	transition: color 250ms linear;
 }
 
 nav:active {
@@ -194,7 +194,7 @@ nav:active {
 	fill: currentColor;
 	height: 16px;
 	align-items: center;
-	transition: color 200ms linear;
+	transition: color 250ms linear;
 }
 .link {
     color: grey;
@@ -323,7 +323,7 @@ nav:active {
 }
 
 .hero a{
-	transition: color 200ms linear;
+	transition: color 250ms linear;
 }
 
 
@@ -369,7 +369,7 @@ nav:active {
 	width: 100%;
 	height: 100%;
 	background-color: rgba(0, 0, 0, 0.2);
-	transition: opacity 200ms linear;
+	transition: opacity 250ms linear;
   }
   
   .backdrop.is-hidden {
@@ -564,7 +564,7 @@ textarea {
 }
 
 .section a {
-	transition: color 200ms linear;
+	transition: color 250ms linear;
 }
 
 /* features */
@@ -654,7 +654,7 @@ textarea {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	transition: 200ms linear;
+	
 }
 
 .team-icon-media svg {
@@ -662,8 +662,9 @@ textarea {
 }
 
 .team-icon-media:hover {
-	background: #2196F3;
+	background-color: #2196F3;
 	fill: #FFFFFF;
+	transition: background-color 250ms linear, fill 250ms linear;
 }
 
 .team-icon-media:hover svg {
@@ -689,13 +690,13 @@ textarea {
 	justify-content: center;
 	min-height: 92px;
 	fill: #AFB1B8;
-	transition: color 200ms linear;
 }
 
 .clients__item:hover {
 	border: 1px solid #2196F3;
 	fill: #2196F3;
 	cursor: pointer;
+	transition: border 250ms linear, fill 250ms linear;
 }
 
 .clients__item {
@@ -734,6 +735,7 @@ textarea {
 .buttons .btn:focus {
 	color: var(--light-txt-cl);
 	background-color: var(--button-bg-cl);
+	transition: color 250ms linear, background-color 250ms linear;
 }
 
 /* projects */
@@ -835,12 +837,12 @@ textarea {
 
 .icon-footer {
 	fill: #FFFFFF;
-	transition: 200ms linear;
 }
 
 .footer_social:hover {
-	background: #2196F3;
+	background-color: #2196F3;
 	fill: #FFFFFF;
+	transition: background-color 250ms linear, fill 250ms linear;
 }
 
 .footer_social:hover svg {
@@ -848,8 +850,9 @@ textarea {
 }
 
 .footer a {
-	transition:	 color 200ms linear;
+	transition:	 color 250ms linear;
 }
+
 .footer-contacts .cont:hover,
 .footer-contacts .cont:focus,
 .footer-contacts .footer-adress:hover,
@@ -878,12 +881,10 @@ textarea {
 	padding: 6px 22px;
 }
 
-.filter:hover {
-	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-
+.filter:hover
 .filter:focus {
 	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+	transition: box-shadow 250ms linear;
 }
 
 
@@ -899,6 +900,7 @@ textarea {
 
 .shop_card:hover {
 	box-shadow: 0px 1px 1px rgb(0 0 0 / 12%), 0px 4px 4px rgb(0 0 0 / 6%), 1px 4px 6px rgb(0 0 0 / 16%);
+	transition: box-shadow 250ms linear;
 }
 
 
@@ -916,10 +918,6 @@ textarea {
 .shop_card {
 	display:block;
 }
-
-.shop a{
-	transition: 200ms linear;
-} 
 
 .shop_overlay {
 	position: relative;
@@ -942,6 +940,8 @@ textarea {
 
 .shop_card:hover .overlay {
 	transform: translateY(-100%);
+	transition: 250ms linear;
+	
 }
 
 .overlay {
