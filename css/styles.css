@@ -833,20 +833,18 @@ textarea {
 	color: #FFFFFF;
 }
 
-.footer__soc-row li svg {
+.icon-footer {
 	fill: #FFFFFF;
 	transition: 200ms linear;
 }
 
-.footer__soc-row li a:hover {
+.footer_social:hover {
 	background: #2196F3;
 	fill: #FFFFFF;
-	transition:  200ms linear;
 }
 
-.footer__soc-row li a:hover svg {
+.footer_social:hover svg {
 	fill: #FFFFFF;
-	transition:  200ms linear;
 }
 
 .footer a {
